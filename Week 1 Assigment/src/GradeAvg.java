@@ -6,8 +6,8 @@ public class GradeAvg {
 		double testScore1 = 66, testScore2 = 87;
 		double quizScoreAvg = ((quizScore1 + quizScore2 + quizScore3)/3);
 		double testScoreAvg = ((testScore1 + testScore2)/2);
-		System.out.println(quizScoreAvg + "%");
-		System.out.println(testScoreAvg + "%");
+		System.out.println("Average Quiz Score: " + quizScoreAvg + "%");
+		System.out.println("Average Test Score: " + testScoreAvg + "%");
 		
 
 	}
