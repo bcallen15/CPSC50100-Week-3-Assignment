@@ -18,7 +18,7 @@ public class TimeComp {
 		sec = seconds%60;
 		minutes = (seconds%3600)/60;
 		hours = seconds/3600;
-		
+		//prints out converted time
 		System.out.print("The time in H:M:S is: " + hours + ":" + minutes + ":" + sec);
 		
 	}
