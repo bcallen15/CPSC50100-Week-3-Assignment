@@ -1,5 +1,5 @@
 //******************************************************
-//Exercise1.java      Author: Ben Callen
+//AgeGuessEx4.java      Author: Ben Callen
 //
 //Allows user to input a name and guess the age of the
 //person. Program displays user guess and correct guess.
@@ -45,12 +45,13 @@ public class AgeGuessEx4 {
 		//string will print telling the user.
 		//-----------------------------------------
 		
-		if (ageGuess != age)
+		if (ageGuess != age) {
 			System.out.print("You guessed wrong! ");
-			if (ageGuess > age)
+		}if (ageGuess > age) {
 				System.out.println(name + " is younger");
-			else
+		}else {
 				System.out.print(name + " is older");
+		}
 
 	}
 
