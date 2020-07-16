@@ -13,7 +13,7 @@ public class Cipher {
 	public static void main(String[] args) {
 		int Number, First, Second, Third, Fourth, Fifth, Total, RandomKey, Encoded;
 		Random generator = new Random();
-		RandomKey = generator.nextInt(10);
+		RandomKey = generator.nextInt(10); //generates random integer for the key value
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -80,8 +80,8 @@ public class Cipher {
 		else {
 			int Encode1 = Total/10; //generates value for first number in cipher
 			int Encode2 = Total%10; //generates value for second number in cipher
-			Encode1 = (RandomKey + Encode1) % 10;
-			Encode2 = (RandomKey + Encode2) % 10;
+			Encode1 = (RandomKey + Encode1) % 10; //rewrites initial first number to final value
+			Encode2 = (RandomKey + Encode2) % 10; //rewrites initial second number to final value
 			Encoded = Encode1 * 10 + Encode2;
 			System.out.println("Your encoded number is " + Encoded);
 		}
