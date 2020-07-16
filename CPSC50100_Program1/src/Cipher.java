@@ -78,11 +78,11 @@ public class Cipher {
 			System.out.println("Your encoded number is " + Single);
 		}
 		else {
-			int Ones = Total/10;
-			int Tens = Total%10;
-			Ones = (RandomKey + Ones) % 10;
-			Tens = (RandomKey + Tens) % 10;
-			Encoded = Ones * 10 + Tens;
+			int Encode1 = Total/10; //generates value for first number in cipher
+			int Encode2 = Total%10; //generates value for second number in cipher
+			Encode1 = (RandomKey + Encode1) % 10;
+			Encode2 = (RandomKey + Encode2) % 10;
+			Encoded = Encode1 * 10 + Encode2;
 			System.out.println("Your encoded number is " + Encoded);
 		}
 
