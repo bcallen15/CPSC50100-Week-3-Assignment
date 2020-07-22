@@ -1,4 +1,9 @@
-
+//************************************************
+//	EvenNumSum.java			Author: Ben Callen
+//
+//	Reads input from user and sums all even
+//	integers between 2 and the user input
+//************************************************
 
 import java.util.Scanner;
 
