@@ -21,7 +21,7 @@ public class EvenNumSum {
 			num--;
 		}
 		x = num/2;
-		sum = x * (x+1);
+		sum = x * (x+1); //formula for sum of consecutive numbers
 		System.out.println("The sum of all even numbers from 2 to your number is: " + sum);
 
 	}
